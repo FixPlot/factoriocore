@@ -1,0 +1,10 @@
+﻿{
+  "variants": {
+    "": [
+      { "model": "factoriocore:block/copper_ore_deposit", "y": 0 },
+      { "model": "factoriocore:block/copper_ore_deposit", "y": 90 },
+      { "model": "factoriocore:block/copper_ore_deposit", "y": 180 },
+      { "model": "factoriocore:block/copper_ore_deposit", "y": 270 }
+    ]
+  }
+}

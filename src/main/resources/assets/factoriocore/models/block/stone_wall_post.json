@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "factoriocore:block/stone_wall",
+    "wall": "factoriocore:block/stone_wall",
+    "cap": "minecraft:block/polished_deepslate"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3],
+      "to": [13, 15, 13],
+      "faces": {
+        "down":  { "texture": "#cap" },
+        "up":    { "texture": "#cap" },
+        "north": { "texture": "#wall" },
+        "south": { "texture": "#wall" },
+        "west":  { "texture": "#wall" },
+        "east":  { "texture": "#wall" }
+      }
+    },
+    {
+      "from": [2.5, 14, 2.5],
+      "to": [13.5, 16, 13.5],
+      "faces": {
+        "down":  { "texture": "#cap" },
+        "up":    { "texture": "#cap" },
+        "north": { "texture": "#cap" },
+        "south": { "texture": "#cap" },
+        "west":  { "texture": "#cap" },
+        "east":  { "texture": "#cap" }
+      }
+    }
+  ]
+}

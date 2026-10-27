@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "factoriocore:block/land_mine",
+    "mine": "factoriocore:block/land_mine",
+    "rim": "minecraft:block/netherite_block"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3],
+      "to": [13, 1.5, 13],
+      "faces": {
+        "down": { "texture": "#rim" }, "up": { "texture": "#mine" },
+        "north": { "texture": "#rim" }, "south": { "texture": "#rim" },
+        "west": { "texture": "#rim" }, "east": { "texture": "#rim" }
+      }
+    },
+    {
+      "from": [5.5, 1.5, 5.5],
+      "to": [10.5, 2.5, 10.5],
+      "faces": {
+        "up": { "texture": "#mine" },
+        "north": { "texture": "#mine" }, "south": { "texture": "#mine" },
+        "west": { "texture": "#mine" }, "east": { "texture": "#mine" }
+      }
+    }
+  ]
+}

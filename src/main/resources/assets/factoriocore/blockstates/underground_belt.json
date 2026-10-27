@@ -1,0 +1,12 @@
+﻿{
+  "variants": {
+    "facing=north,output=false": { "model": "factoriocore:block/underground_belt", "y": 0 },
+    "facing=east,output=false":  { "model": "factoriocore:block/underground_belt", "y": 90 },
+    "facing=south,output=false": { "model": "factoriocore:block/underground_belt", "y": 180 },
+    "facing=west,output=false":  { "model": "factoriocore:block/underground_belt", "y": 270 },
+    "facing=north,output=true":  { "model": "factoriocore:block/underground_belt", "y": 180 },
+    "facing=east,output=true":   { "model": "factoriocore:block/underground_belt", "y": 270 },
+    "facing=south,output=true":  { "model": "factoriocore:block/underground_belt", "y": 0 },
+    "facing=west,output=true":   { "model": "factoriocore:block/underground_belt", "y": 90 }
+  }
+}

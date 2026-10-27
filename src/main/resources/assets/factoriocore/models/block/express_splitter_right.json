@@ -1,0 +1,45 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/light_blue_concrete",
+    "base": "minecraft:block/polished_blackstone",
+    "mech": "minecraft:block/netherite_block",
+    "tier": "minecraft:block/light_blue_concrete",
+    "iron": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 6, 16],
+      "faces": {
+        "down":  { "texture": "#base" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      }
+    },
+    {
+      "from": [0, 6, 2],
+      "to": [4, 11, 14],
+      "faces": {
+        "up":    { "texture": "#tier" },
+        "north": { "texture": "#mech" },
+        "south": { "texture": "#mech" },
+        "west":  { "texture": "#mech" },
+        "east":  { "texture": "#iron" }
+      }
+    },
+    {
+      "from": [4, 6, 5],
+      "to": [16, 9, 11],
+      "faces": {
+        "up":    { "texture": "#mech" },
+        "north": { "texture": "#tier" },
+        "south": { "texture": "#tier" },
+        "east":  { "texture": "#mech" }
+      }
+    }
+  ]
+}

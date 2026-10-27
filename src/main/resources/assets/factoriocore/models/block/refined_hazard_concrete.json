@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "factoriocore:block/refined_hazard_concrete"
+  }
+}

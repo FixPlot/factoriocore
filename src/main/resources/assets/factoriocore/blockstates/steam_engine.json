@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "factoriocore:block/steam_engine" }
+  }
+}

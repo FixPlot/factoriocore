@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "factoriocore:block/gate_door",
+    "door": "factoriocore:block/gate_door",
+    "frame": "minecraft:block/netherite_block"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 2],
+      "to": [2, 16, 14],
+      "faces": {
+        "down": { "texture": "#frame" }, "up": { "texture": "#frame" },
+        "north": { "texture": "#frame" }, "south": { "texture": "#frame" },
+        "west": { "texture": "#frame" }, "east": { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [14, 0, 2],
+      "to": [16, 16, 14],
+      "faces": {
+        "down": { "texture": "#frame" }, "up": { "texture": "#frame" },
+        "north": { "texture": "#frame" }, "south": { "texture": "#frame" },
+        "west": { "texture": "#frame" }, "east": { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [2, 0, 4],
+      "to": [14, 15, 12],
+      "faces": {
+        "down":  { "texture": "#frame" },
+        "up":    { "texture": "#door" },
+        "north": { "texture": "#door" },
+        "south": { "texture": "#door" },
+        "west":  { "texture": "#door" },
+        "east":  { "texture": "#door" }
+      }
+    }
+  ]
+}

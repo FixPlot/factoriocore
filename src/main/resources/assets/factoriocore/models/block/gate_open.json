@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "factoriocore:block/gate_door",
+    "door": "factoriocore:block/gate_door",
+    "frame": "minecraft:block/netherite_block"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 2],
+      "to": [16, 2, 14],
+      "faces": {
+        "down": { "texture": "#frame" }, "up": { "texture": "#door" },
+        "north": { "texture": "#frame" }, "south": { "texture": "#frame" },
+        "west": { "texture": "#frame" }, "east": { "texture": "#frame" }
+      }
+    }
+  ]
+}

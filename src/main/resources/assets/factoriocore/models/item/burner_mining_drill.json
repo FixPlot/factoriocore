@@ -1,0 +1,44 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "base": "minecraft:block/polished_deepslate",
+    "frame": "minecraft:block/netherite_block",
+    "firebox": "minecraft:block/blast_furnace_front_on",
+    "chute": "minecraft:block/yellow_concrete"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 4, 15],
+      "faces": {
+        "down":  { "texture": "#base" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      }
+    },
+    {
+      "from": [3, 4, 3],
+      "to": [13, 15, 13],
+      "faces": {
+        "up":    { "texture": "#frame" },
+        "north": { "texture": "#firebox" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [4, 2, 0],
+      "to": [10, 6, 3],
+      "faces": {
+        "up":    { "texture": "#chute" },
+        "north": { "texture": "#chute" },
+        "west":  { "texture": "#chute" },
+        "east":  { "texture": "#chute" }
+      }
+    }
+  ]
+}

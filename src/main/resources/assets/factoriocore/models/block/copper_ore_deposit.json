@@ -1,0 +1,55 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/copper_ore",
+    "base": "minecraft:block/copper_ore",
+    "nugget": "minecraft:block/raw_copper_block"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#base" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      }
+    },
+    {
+      "from": [2, 16, 2],
+      "to": [7, 17, 7],
+      "faces": {
+        "up":    { "texture": "#nugget" },
+        "north": { "texture": "#nugget" },
+        "south": { "texture": "#nugget" },
+        "west":  { "texture": "#nugget" },
+        "east":  { "texture": "#nugget" }
+      }
+    },
+    {
+      "from": [9, 16, 8],
+      "to": [14, 17.5, 14],
+      "faces": {
+        "up":    { "texture": "#nugget" },
+        "north": { "texture": "#nugget" },
+        "south": { "texture": "#nugget" },
+        "west":  { "texture": "#nugget" },
+        "east":  { "texture": "#nugget" }
+      }
+    },
+    {
+      "from": [4, 16, 10],
+      "to": [7, 16.8, 13],
+      "faces": {
+        "up":    { "texture": "#nugget" },
+        "north": { "texture": "#nugget" },
+        "south": { "texture": "#nugget" },
+        "west":  { "texture": "#nugget" },
+        "east":  { "texture": "#nugget" }
+      }
+    }
+  ]
+}

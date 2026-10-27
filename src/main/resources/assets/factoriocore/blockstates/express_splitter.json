@@ -1,0 +1,12 @@
+﻿{
+  "variants": {
+    "facing=north,part_right=false": { "model": "factoriocore:block/express_splitter_left",  "y": 0 },
+    "facing=east,part_right=false":  { "model": "factoriocore:block/express_splitter_left",  "y": 90 },
+    "facing=south,part_right=false": { "model": "factoriocore:block/express_splitter_left",  "y": 180 },
+    "facing=west,part_right=false":  { "model": "factoriocore:block/express_splitter_left",  "y": 270 },
+    "facing=north,part_right=true":  { "model": "factoriocore:block/express_splitter_right", "y": 0 },
+    "facing=east,part_right=true":   { "model": "factoriocore:block/express_splitter_right", "y": 90 },
+    "facing=south,part_right=true":  { "model": "factoriocore:block/express_splitter_right", "y": 180 },
+    "facing=west,part_right=true":   { "model": "factoriocore:block/express_splitter_right", "y": 270 }
+  }
+}

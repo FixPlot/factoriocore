@@ -1,0 +1,5 @@
+﻿{
+  "variants": {
+    "": { "model": "factoriocore:block/burner_mining_drill" }
+  }
+}

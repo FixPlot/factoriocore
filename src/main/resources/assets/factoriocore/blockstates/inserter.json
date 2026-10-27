@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "factoriocore:block/inserter" },
+    "facing=east":  { "model": "factoriocore:block/inserter", "y": 90 },
+    "facing=south": { "model": "factoriocore:block/inserter", "y": 180 },
+    "facing=west":  { "model": "factoriocore:block/inserter", "y": 270 }
+  }
+}

@@ -1,0 +1,76 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/spruce_planks",
+    "body": "minecraft:block/spruce_planks",
+    "frame": "minecraft:block/stripped_dark_oak_log",
+    "lid": "minecraft:block/oak_planks"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [15, 11, 15],
+      "faces": {
+        "down":  { "texture": "#frame" },
+        "up":    { "texture": "#body" },
+        "north": { "texture": "#body" },
+        "south": { "texture": "#body" },
+        "west":  { "texture": "#body" },
+        "east":  { "texture": "#body" }
+      }
+    },
+    {
+      "from": [0.5, 11, 0.5],
+      "to": [15.5, 14, 15.5],
+      "faces": {
+        "down":  { "texture": "#frame" },
+        "up":    { "texture": "#lid" },
+        "north": { "texture": "#frame" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [0.5, 0, 0.5],
+      "to": [2.5, 11, 2.5],
+      "faces": {
+        "north": { "texture": "#frame" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [13.5, 0, 0.5],
+      "to": [15.5, 11, 2.5],
+      "faces": {
+        "north": { "texture": "#frame" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [0.5, 0, 13.5],
+      "to": [2.5, 11, 15.5],
+      "faces": {
+        "north": { "texture": "#frame" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [13.5, 0, 13.5],
+      "to": [15.5, 11, 15.5],
+      "faces": {
+        "north": { "texture": "#frame" },
+        "south": { "texture": "#frame" },
+        "west":  { "texture": "#frame" },
+        "east":  { "texture": "#frame" }
+      }
+    }
+  ]
+}

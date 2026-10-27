@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "factoriocore:block/fast_belt" }
+  }
+}

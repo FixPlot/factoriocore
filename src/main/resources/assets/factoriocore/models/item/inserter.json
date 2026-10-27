@@ -1,0 +1,77 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "base": "minecraft:block/netherite_block",
+    "yellow": "minecraft:block/yellow_concrete",
+    "steel": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 3, 14],
+      "faces": {
+        "down":  { "texture": "#base" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      }
+    },
+    {
+      "from": [5, 3, 5],
+      "to": [11, 8, 12],
+      "faces": {
+        "up":    { "texture": "#yellow" },
+        "north": { "texture": "#yellow" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#yellow" },
+        "east":  { "texture": "#yellow" }
+      }
+    },
+    {
+      "from": [6.5, 7, 4],
+      "to": [9.5, 14, 7],
+      "faces": {
+        "up":    { "texture": "#yellow" },
+        "north": { "texture": "#yellow" },
+        "south": { "texture": "#yellow" },
+        "west":  { "texture": "#yellow" },
+        "east":  { "texture": "#yellow" }
+      }
+    },
+    {
+      "from": [7, 11, 0],
+      "to": [9, 13.5, 6],
+      "faces": {
+        "up":    { "texture": "#steel" },
+        "down":  { "texture": "#steel" },
+        "north": { "texture": "#steel" },
+        "west":  { "texture": "#steel" },
+        "east":  { "texture": "#steel" }
+      }
+    },
+    {
+      "from": [5, 11, -2],
+      "to": [6.5, 13, 1],
+      "faces": {
+        "up":    { "texture": "#steel" },
+        "down":  { "texture": "#steel" },
+        "north": { "texture": "#steel" },
+        "west":  { "texture": "#steel" },
+        "east":  { "texture": "#steel" }
+      }
+    },
+    {
+      "from": [9.5, 11, -2],
+      "to": [11, 13, 1],
+      "faces": {
+        "up":    { "texture": "#steel" },
+        "down":  { "texture": "#steel" },
+        "north": { "texture": "#steel" },
+        "west":  { "texture": "#steel" },
+        "east":  { "texture": "#steel" }
+      }
+    }
+  ]
+}

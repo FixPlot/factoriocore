@@ -1,0 +1,10 @@
+﻿{
+  "type": "factoriocore:nauvis",
+  "generator": {
+    "type": "factoriocore:nauvis_generator",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    }
+  }
+}

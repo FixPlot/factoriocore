@@ -1,0 +1,84 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/polished_deepslate",
+    "base": "minecraft:block/polished_deepslate",
+    "ring": "minecraft:block/copper_block",
+    "dark": "minecraft:block/netherite_block"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3],
+      "to": [13, 2, 13],
+      "faces": {
+        "down":  { "texture": "#base" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      }
+    },
+    {
+      "from": [1, 0, 1],
+      "to": [4, 3, 4],
+      "faces": {
+        "down":  { "texture": "#dark" },
+        "up":    { "texture": "#dark" },
+        "north": { "texture": "#dark" },
+        "south": { "texture": "#dark" },
+        "west":  { "texture": "#dark" },
+        "east":  { "texture": "#dark" }
+      }
+    },
+    {
+      "from": [12, 0, 1],
+      "to": [15, 3, 4],
+      "faces": {
+        "down":  { "texture": "#dark" },
+        "up":    { "texture": "#dark" },
+        "north": { "texture": "#dark" },
+        "south": { "texture": "#dark" },
+        "west":  { "texture": "#dark" },
+        "east":  { "texture": "#dark" }
+      }
+    },
+    {
+      "from": [1, 0, 12],
+      "to": [4, 3, 15],
+      "faces": {
+        "down":  { "texture": "#dark" },
+        "up":    { "texture": "#dark" },
+        "north": { "texture": "#dark" },
+        "south": { "texture": "#dark" },
+        "west":  { "texture": "#dark" },
+        "east":  { "texture": "#dark" }
+      }
+    },
+    {
+      "from": [12, 0, 12],
+      "to": [15, 3, 15],
+      "faces": {
+        "down":  { "texture": "#dark" },
+        "up":    { "texture": "#dark" },
+        "north": { "texture": "#dark" },
+        "south": { "texture": "#dark" },
+        "west":  { "texture": "#dark" },
+        "east":  { "texture": "#dark" }
+      }
+    },
+    {
+      "from": [5, 2, 5],
+      "to": [11, 4, 11],
+      "faces": {
+        "up":    { "texture": "#ring" },
+        "north": { "texture": "#ring" },
+        "south": { "texture": "#ring" },
+        "west":  { "texture": "#ring" },
+        "east":  { "texture": "#ring" }
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "factoriocore:block/stone_wall",
+    "wall": "factoriocore:block/stone_wall",
+    "cap": "minecraft:block/polished_deepslate"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 0],
+      "to": [12, 14, 4],
+      "faces": {
+        "down":  { "texture": "#cap" },
+        "up":    { "texture": "#cap" },
+        "north": { "texture": "#wall" },
+        "west":  { "texture": "#wall" },
+        "east":  { "texture": "#wall" }
+      }
+    }
+  ]
+}
